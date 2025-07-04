@@ -120,23 +120,22 @@ h1 {
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 .notebook {
-  background-image: url('https://i.imgur.com/fnJskC9.jpg');
-  background-size: cover;
-  background-position: center;
+  background-color: #fff0f5;
   padding: 30px 20px;
   margin: 30px auto;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 90%;
   max-width: 500px;
   min-height: 250px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   font-family: 'Caveat', cursive;
   font-size: 1.5em;
   line-height: 1.6;
   color: #4d194d;
-  position: relative;
   white-space: pre-wrap;
+  border-left: 4px solid #ff4d6d;
 }
+
 
 .typed::after {
   content: "|";
